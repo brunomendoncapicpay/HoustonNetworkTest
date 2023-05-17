@@ -1,0 +1,680 @@
+{
+  "account_shutdown_how_to_url": {
+    "value": "4410111393683"
+  },
+  "advance_receivables_eligibility": {
+    "value": "false",
+    "track": [
+      "datalake",
+      "mixpanel"
+    ]
+  },
+  "app_store_deeplink_url": {
+    "value": "https://apps.apple.com/br/app/picpay-empresas/id1208271019"
+  },
+  "app_store_weblink_url": {
+    "value": "https://itunes.apple.com/br/developer/picpay-apps/id949456209"
+  },
+  "banner_card_offer_value": {
+    "value": "1"
+  },
+  "banner_credit_offer_pj_value": {
+    "value": "2"
+  },
+  "card_pj_offer_url_terms": {
+    "value": "https://bizapi.picpay.com/api/term-accept-cardpj"
+  },
+  "card_pj_tracking_correios_url": {
+    "value": "https://rastreamento.correios.com.br/"
+  },
+  "chat_integration_id": {
+    "value": "{\"activated\":\"63875d3a16712c0105f56b87\",\"old\":\"62f3eb2ba364f000f40c6ba1\",\"new\":\"63875d3a16712c0105f56b87\"}"
+  },
+  "clean_credit_eligibility": {
+    "value": "false"
+  },
+  "clean_credit_help_dinie_faq": {
+    "value": "https://ajudaempresas.picpay.com/hc/pt-br/sections/7983327663251-Cr%C3%A9dito-Clean"
+  },
+  "clean_credit_help_dinie_use_terms": {
+    "value": "https://www.picpay.com/app_webviews/terms_biz/"
+  },
+  "credit_offer_pj_faq_section_id": {
+    "value": "4408139307155"
+  },
+  "credit_offer_pj_terms_and_conditions_url": {
+    "value": "https://picpay.com/app_webviews/terms_biz/?"
+  },
+  "current_onboarding_pj_version": {
+    "value": "{\"value\":\"v1\"}"
+  },
+  "customer_service_options": {
+    "value": "{\"email\":{\"isHidden\":true,\"text\":\"mailto:relacionamento-empresas@picpay.com\"},\"sac\":{\"isHidden\":true,\"text\":\"tel:4020-6660\"},\"ombudsman\":{\"isHidden\":true,\"text\":\"tel:0800 025 2000\"}}"
+  },
+  "elo_partners_images_url": {
+    "value": "https://cdn.picpay.com/cardpj/images/cliente_legado.png"
+  },
+  "elo_partners_new_seller_images_url": {
+    "value": "https://cdn.picpay.com/cardpj/images/cliente_novo.png"
+  },
+  "email_address": {
+    "value": "mailto:relacionamento-empresas@picpay.com"
+  },
+  "external_advance_receivables_eligibility": {
+    "value": "false"
+  },
+  "fakedoor_eligibility": {
+    "value": "true"
+  },
+  "faq_article_add_card_wallet": {
+    "value": "https://ajudaempresas.picpay.com/hc/pt-br/articles/15364419437979"
+  },
+  "faq_article_cdi_yield": {
+    "value": "https://meajuda.picpay.com/hc/pt-br/articles/360044022532-Quanto-rende-meu-dinheiro-no-PicPay"
+  },
+  "faq_article_check_card_wallet": {
+    "value": "https://ajudaempresas.picpay.com/hc/pt-br/articles/6424556139283"
+  },
+  "faq_board_activation": {
+    "value": "9546035420691",
+    "track": [
+      "datalake"
+    ]
+  },
+  "faq_card_offer_pj_url": {
+    "value": "https://ajudaempresas.picpay.com/hc/pt-br/categories/5653481592979-PicPay-Card-Empresas"
+  },
+  "faq_card_pj_xp_url": {
+    "value": "https://ajudaempresas.picpay.com/hc/pt-br/categories/5653481592979-PicPay-Card-Empresas"
+  },
+  "faq_most_searched_terms": {
+    "value": "{\"terms\":[{\"id\":360003297112,\"name\":\"Minha conta\"},{\"id\":360003297112,\"name\":\"Gerenciando minha conta\"},{\"id\":360003297112,\"name\":\"Picpay Empresas\"}]}",
+    "track": [
+      "datalake"
+    ]
+  },
+  "feature_apply_material": {
+    "value": "false"
+  },
+  "feature_automatic_withdrawal": {
+    "value": "false"
+  },
+  "feature_easter_egg": {
+    "value": " ",
+    "track": [
+      "datalake",
+      "mixpanel"
+    ]
+  },
+  "feature_event_tracker_batch_size": {
+    "value": "0"
+  },
+  "feature_event_tracker_flush_interval": {
+    "value": "0"
+  },
+  "feature_facial_biometry": {
+    "value": "true"
+  },
+  "feature_houston_monitoring": {
+    "value": "true",
+    "track": [
+      "datalake"
+    ]
+  },
+  "feature_installment": {
+    "value": "false"
+  },
+  "feature_is_new_carousel_cards": {
+    "value": "true"
+  },
+  "feature_mobility": {
+    "value": "false"
+  },
+  "feature_new_flow_bills_enabled": {
+    "value": "false"
+  },
+  "feature_new_logo": {
+    "value": "false"
+  },
+  "feature_pdf_file_line_limit": {
+    "value": "1.200"
+  },
+  "feature_pix_table": {
+    "value": "true"
+  },
+  "feature_plans_E_COMMERCE": {
+    "value": "{\"canDisplay\":true,\"arrangement\":{\"picpay\":{\"canDisplayCard\":true,\"canDisplayChange\":true,\"canDisplayInstallment\":true,\"canDisplayAnticipation\":false},\"pix\":{\"canDisplayCard\":false},\"acquirer\":{\"canDisplayCard\":false,\"canDisplayChange\":false,\"canDisplayInstallment\":false,\"canDisplayAnticipation\":false}}}"
+  },
+  "feature_plans_PAYMENT_LINK": {
+    "value": "{\"canDisplay\":false,\"arrangement\":{\"picpay\":{\"canDisplayCard\":true,\"canDisplayChange\":true,\"canDisplayInstallment\":true,\"canDisplayAnticipation\":false,\"canDisplayPaymentLinkFeedback\":true},\"pix\":{\"canDisplayCard\":true},\"acquirer\":{\"canDisplayCard\":false,\"canDisplayChange\":false,\"canDisplayInstallment\":false,\"canDisplayAnticipation\":false}}}"
+  },
+  "feature_plans_POS": {
+    "value": "{\"canDisplay\":false,\"arrangement\":{\"picpay\":{\"canDisplayCard\":false,\"canDisplayChange\":false,\"canDisplayInstallment\":false,\"canDisplayAnticipation\":false,\"canDisplayPaymentLinkFeedback\":false},\"pix\":{\"canDisplayCard\":false},\"acquirer\":{\"canDisplayCard\":false,\"canDisplayChange\":false,\"canDisplayInstallment\":false,\"canDisplayAnticipation\":false}}}"
+  },
+  "feature_plans_QR_PLAQUET_APP_COMPANIES": {
+    "value": "{\"canDisplay\":true,\"arrangement\":{\"picpay\":{\"canDisplayCard\":true,\"canDisplayChange\":true,\"canDisplayInstallment\":true,\"canDisplayAnticipation\":false,\"canDisplayPaymentLinkFeedback\":true},\"pix\":{\"canDisplayCard\":true},\"acquirer\":{\"canDisplayCard\":false,\"canDisplayChange\":false,\"canDisplayInstallment\":false,\"canDisplayAnticipation\":false}}}"
+  },
+  "feature_plans_TAP_ON_PHONE_AND_MOBILE": {
+    "value": "{\"canDisplay\":false,\"arrangement\":{\"picpay\":{\"canDisplayCard\":false,\"canDisplayChange\":false,\"canDisplayInstallment\":false,\"canDisplayAnticipation\":false,\"canDisplayPaymentLinkFeedback\":false},\"pix\":{\"canDisplayCard\":false},\"acquirer\":{\"canDisplayCard\":false,\"canDisplayChange\":false,\"canDisplayInstallment\":false,\"canDisplayAnticipation\":false}}}"
+  },
+  "feature_plans_TEF": {
+    "value": "{\"canDisplay\":false,\"arrangement\":{\"picpay\":{\"canDisplayCard\":false,\"canDisplayChange\":false,\"canDisplayInstallment\":false,\"canDisplayAnticipation\":false,\"canDisplayPaymentLinkFeedback\":false},\"pix\":{\"canDisplayCard\":false},\"acquirer\":{\"canDisplayCard\":false,\"canDisplayChange\":false,\"canDisplayInstallment\":false,\"canDisplayAnticipation\":false}}}"
+  },
+  "feature_plans_tax": {
+    "value": "{\"buttons\":[{\"name\":\"taxTable\",\"url\":\"\",\"canDisplay\":false},{\"name\":\"aceptedCards\",\"canDisplay\":false}]}"
+  },
+  "feature_plans_v1": {
+    "value": "{\"canDisplay\":true,\"sections\":{\"freeCampaign\":false,\"moreAbout\":false,\"presencialSales\":false,\"onlineSales\":false}}"
+  },
+  "feature_print_qr_code": {
+    "value": "true"
+  },
+  "feature_provider_trackings": {
+    "value": "false"
+  },
+  "feature_researches": {
+    "value": "true"
+  },
+  "feature_sale_simulator": {
+    "value": "false"
+  },
+  "feature_send_ted_spb_enabled": {
+    "value": "true"
+  },
+  "feature_settings_pj_menus": {
+    "value": "[ ]"
+  },
+  "feature_teste_ppay_empresa": {
+    "value": "false"
+  },
+  "is_account_info_renewal_available": {
+    "value": "true"
+  },
+  "is_account_onboarding_available": {
+    "value": "false"
+  },
+  "is_account_shutdown_available": {
+    "value": "true"
+  },
+  "is_account_shutdown_web_available": {
+    "value": "true"
+  },
+  "is_account_upgrade_available": {
+    "value": "false"
+  },
+  "is_account_upgrade_banner_available": {
+    "value": "false"
+  },
+  "is_anonymous_contact_us_form_enabled": {
+    "value": "false"
+  },
+  "is_anonymous_form_contact_us_available": {
+    "value": "false"
+  },
+  "is_auto_withdrawal_feature_enabled": {
+    "value": "false"
+  },
+  "is_bank_slip_payment": {
+    "value": "false"
+  },
+  "is_banner_card_offer_available": {
+    "value": "true"
+  },
+  "is_banner_credit_offer_pj_available": {
+    "value": "true"
+  },
+  "is_banner_physical_card_pj_offer_available": {
+    "value": "true"
+  },
+  "is_billet_new_tfa_integration_available": {
+    "value": "false"
+  },
+  "is_billet_payment_available": {
+    "value": "true"
+  },
+  "is_billet_payment_flux": {
+    "value": "false"
+  },
+  "is_billet_payment_limit_checking_enabled": {
+    "value": "false"
+  },
+  "is_billet_payment_scheduling_available": {
+    "value": "false"
+  },
+  "is_bills_limit_available": {
+    "value": "false"
+  },
+  "is_bills_receipt_available": {
+    "value": "true"
+  },
+  "is_board_activation_available": {
+    "value": "true",
+    "track": [
+      "datalake"
+    ]
+  },
+  "is_board_activation_rollout_available": {
+    "value": "false",
+    "track": [
+      "datalake"
+    ]
+  },
+  "is_card_pj_available": {
+    "value": "true"
+  },
+  "is_card_pj_damage_replacement_available": {
+    "value": "false"
+  },
+  "is_card_pj_home_banner_active": {
+    "value": "true"
+  },
+  "is_card_pj_lost_replacement_available": {
+    "value": "true"
+  },
+  "is_card_pj_security_option_available": {
+    "value": "true"
+  },
+  "is_card_pj_stolen_replacement_available": {
+    "value": "true"
+  },
+  "is_card_pj_terms_available": {
+    "value": "true"
+  },
+  "is_cardpj_balance_component_available": {
+    "value": "false"
+  },
+  "is_cpf_cnpj_new_flow_enabled": {
+    "value": "false"
+  },
+  "is_credit_offer_pj_available": {
+    "value": "false"
+  },
+  "is_delayed_analytics_reset_enabled": {
+    "value": "false"
+  },
+  "is_digital_card_banner_feature_enabled": {
+    "value": "false"
+  },
+  "is_direct_message_pj_enabled": {
+    "value": "false",
+    "track": [
+      "datalake",
+      "mixpanel"
+    ]
+  },
+  "is_direct_message_pj_notification_unread_count_enabled": {
+    "value": "true"
+  },
+  "is_event_tracker_batch_enabled": {
+    "value": "false"
+  },
+  "is_external_link_available": {
+    "value": "false"
+  },
+  "is_faq_enabled": {
+    "value": "false"
+  },
+  "is_fast_access_available": {
+    "value": "true"
+  },
+  "is_flag_used_experiment_enabled": {
+    "value": "true"
+  },
+  "is_flag_used_toggle_control_enabled": {
+    "value": "false"
+  },
+  "is_flag_used_tracking_enabled": {
+    "value": "true"
+  },
+  "is_flags_control_adapter_available": {
+    "value": "false"
+  },
+  "is_flow_cpf_onboarding_pj_available": {
+    "value": "false"
+  },
+  "is_force_update_window_enabled": {
+    "value": "false"
+  },
+  "is_help_center_home_enabled": {
+    "value": "false"
+  },
+  "is_help_center_sunco_enabled": {
+    "value": "true",
+    "track": [
+      "datalake"
+    ]
+  },
+  "is_in_app_message_push_available_pj": {
+    "value": "false"
+  },
+  "is_keycloack_login_enabled": {
+    "value": "false"
+  },
+  "is_login_with_new_design_available": {
+    "value": "false"
+  },
+  "is_mini_card_receivables_schedule_available": {
+    "value": "false"
+  },
+  "is_mixpanel_to_eventtracker_redirect_enabled": {
+    "value": "true"
+  },
+  "is_my_active_boards_available": {
+    "value": "false"
+  },
+  "is_new_account_management_available": {
+    "value": "true"
+  },
+  "is_new_billet_payment_flux": {
+    "value": "false"
+  },
+  "is_new_board_component_available": {
+    "value": "false"
+  },
+  "is_new_branding_pj_available": {
+    "value": "false"
+  },
+  "is_new_cadastral_maintenance_available_pj": {
+    "value": "false"
+  },
+  "is_new_chat_online_enabled": {
+    "value": "false"
+  },
+  "is_new_flags_control_provider_available": {
+    "value": "true"
+  },
+  "is_new_home_pj_available": {
+    "value": "false"
+  },
+  "is_new_login_authentication_available": {
+    "value": "false"
+  },
+  "is_new_ms_pj_charge": {
+    "value": "true"
+  },
+  "is_new_onboarding_flow_available": {
+    "value": "false"
+  },
+  "is_new_onboarding_pj_available": {
+    "value": "false"
+  },
+  "is_new_pix_limits_experience": {
+    "value": "true"
+  },
+  "is_new_pj_onboarding_available": {
+    "value": "false"
+  },
+  "is_new_service_seller_data_company": {
+    "value": "true"
+  },
+  "is_new_service_seller_data_password": {
+    "value": "true"
+  },
+  "is_new_service_seller_data_responsible": {
+    "value": "true"
+  },
+  "is_new_service_signup_available": {
+    "value": "true"
+  },
+  "is_new_transactions_list_component_available": {
+    "value": "true"
+  },
+  "is_new_unified_sdk_enabled": {
+    "value": "false"
+  },
+  "is_new_withdraw_flow_pj_active": {
+    "value": "false"
+  },
+  "is_onboarding_cnpj_available": {
+    "value": "true"
+  },
+  "is_onboarding_cpf_available": {
+    "value": "true"
+  },
+  "is_onboarding_pj_active": {
+    "value": "true"
+  },
+  "is_open_banking_consent_available": {
+    "value": "false"
+  },
+  "is_open_banking_transmission_available": {
+    "value": "true"
+  },
+  "is_openbanking_statement_available_pj": {
+    "value": "true",
+    "track": [
+      "datalake"
+    ]
+  },
+  "is_password_reset_pj_available": {
+    "value": "true"
+  },
+  "is_password_reset_pj_loggedin_available": {
+    "value": "true"
+  },
+  "is_payment_link_available": {
+    "value": "false"
+  },
+  "is_picpay_business_pj_available": {
+    "value": "false"
+  },
+  "is_pix_daily_limit_available_pj": {
+    "value": "true"
+  },
+  "is_pix_daily_limit_available_settings_pj": {
+    "value": "true"
+  },
+  "is_pix_fee_pj_available": {
+    "value": "true"
+  },
+  "is_pix_limits_key_registration_available": {
+    "value": "true"
+  },
+  "is_pix_limits_option_buttons_manage_available": {
+    "value": "true"
+  },
+  "is_pix_payment_schedule_available_pj": {
+    "value": "true"
+  },
+  "is_pix_payment_schedule_keys_available_pj": {
+    "value": "true"
+  },
+  "is_pix_qrcode_unique_charge_list_available": {
+    "value": "true",
+    "track": [
+      "datalake"
+    ]
+  },
+  "is_pix_qrcode_unique_receive_available": {
+    "value": "true",
+    "track": [
+      "datalake"
+    ]
+  },
+  "is_pix_time_management_enabled": {
+    "value": "false"
+  },
+  "is_pix_withdraw_and_change_enabled": {
+    "value": "true"
+  },
+  "is_pj_log_check_available": {
+    "value": "false"
+  },
+  "is_pj_unreal_check_available": {
+    "value": "false"
+  },
+  "is_ppcard_pj_replacement_available": {
+    "value": "false"
+  },
+  "is_qr_code_seller_request_available_pj": {
+    "value": "true"
+  },
+  "is_recaptcha_pj_login_available": {
+    "value": "true"
+  },
+  "is_receivables_schedule_available": {
+    "value": "false"
+  },
+  "is_receivables_schedule_settings_available": {
+    "value": "true"
+  },
+  "is_remove_account_bottom_sheet_available": {
+    "value": "true"
+  },
+  "is_renewal_annual_billing_available": {
+    "value": "true"
+  },
+  "is_sac_enabled": {
+    "value": "true"
+  },
+  "is_security_block_screen_available": {
+    "value": "true"
+  },
+  "is_security_detections_available": {
+    "value": "true"
+  },
+  "is_seller_features_carousel_available": {
+    "value": "true"
+  },
+  "is_signing_requests_enabled": {
+    "value": "true"
+  },
+  "is_tax30days": {
+    "value": "true"
+  },
+  "is_tfa_login_available": {
+    "value": "false"
+  },
+  "is_transfer_carousel_button_available": {
+    "value": "true"
+  },
+  "is_waf_redirect_enabled": {
+    "value": "true"
+  },
+  "is_wallet_pj_available": {
+    "value": "false",
+    "track": [
+      "datalake"
+    ]
+  },
+  "is_whatsapp_enabled": {
+    "value": "false"
+  },
+  "kr_houston_monitoring": {
+    "value": "true",
+    "track": [
+      "datalake"
+    ]
+  },
+  "log_detection_faq_url": {
+    "value": "https://ajudaempresas.picpay.com/hc/pt-br/articles/4408505613325"
+  },
+  "log_detection_panel_url": {
+    "value": "https://painel-empresas.picpay.com/"
+  },
+  "maintenance_feedbackcard": {
+    "value": "{\"type\":\"info\",\"message\":\"\"}"
+  },
+  "min_sdk_supported_by_playstore": {
+    "value": "21"
+  },
+  "new_sales": {
+    "value": "{\"canDisplay\":{\"list\":false,\"search\":false,\"receivableBox\":false,\"export\":false,\"filter\":{\"appliedFilter\":false,\"range\":false,\"date\":false,\"status\":false},\"detail\":{\"info\":false,\"moreInfo\":false,\"history\":false,\"cancel\":false}}}"
+  },
+  "novo_teste_apagar": {
+    "value": "false"
+  },
+  "obcc_is_quod_verification_enabled_pj": {
+    "value": "false"
+  },
+  "obcc_quod_toggle_pj": {
+    "value": "true"
+  },
+  "offer_external_delivery_tracking_url": {
+    "value": "https://www.flashcourier.com.br/rastreio/"
+  },
+  "ombudsman_phone_number": {
+    "value": "tel:0800 025 2000"
+  },
+  "onboarding_app_title_value": {
+    "value": "PicPay Empresas!"
+  },
+  "onboarding_pj_billing_options": {
+    "value": "[{\"title\":\"Até R$10.000 por mês\",\"subtitle\":\"Se você recebe até R$120.000 ao ano\",\"amount\":120000,\"analytics\":\"ATE_10K\"},{\"title\":\"De R$10.001 até R$25.000 por mês\",\"subtitle\":\"Se você recebe até R$300.000 ao ano\",\"amount\":300000,\"analytics\":\"ATE_25K\"},{\"title\":\"De R$25.001 até R$50.000 por mês\",\"subtitle\":\"Se você recebe até R$600.000 ao ano\",\"amount\":600000,\"analytics\":\"ATE_50K\"},{\"title\":\"De R$50.001 até R$100.000 por mês\",\"subtitle\":\"Se você recebe até R$1.200.000 ao ano\",\"amount\":1200000,\"analytics\":\"ATE_100K\"},{\"title\":\"De R$100.001 até R$300.000 por mês\",\"subtitle\":\"Se você recebe até R$3.600.000 ao ano\",\"amount\":3600000,\"analytics\":\"ATE_300K\"},{\"title\":\"De R$300.001 até R$1.000.000 por mês\",\"subtitle\":\"Se você recebe até R$12.000.000 ao ano\",\"amount\":12000000,\"analytics\":\"ATE_1M\"},{\"title\":\"Acima de R$1.000.000 por mês\",\"subtitle\":\"Se você recebe mais de R$12.000.000 ao ano\",\"amount\":12000012,\"analytics\":\"ACIMA_1M\"}]"
+  },
+  "payment_account_shutdown_general_conditions_url": {
+    "value": "https://s3.amazonaws.com/cdn.picpay.com/conta-core/conta_pagamento_encerramento.html"
+  },
+  "pj_faq_billet_details": {
+    "value": "https://ajudaempresas.picpay.com/hc/pt-br/categories/360003290831-Boletos"
+  },
+  "pj_update_in_app_warning": {
+    "value": "{\"type\":\"NONE\",\"text\":\".\",\"actionTitle\":\"\",\"actionLink\":\"\",\"isVisible\":\"false\",\"tracking\":\"\"}"
+  },
+  "rameleon_setup_dependencies_pj": {
+    "value": "false"
+  },
+  "receivables_schedule_onboarding_pj_faq_section_id": {
+    "value": "4408139307155"
+  },
+  "receivables_schedule_onboarding_pj_terms_and_conditions_url": {
+    "value": "https://picpay.com/app_webviews/terms_biz/?"
+  },
+  "receivement_account_shutdown_general_conditions_url": {
+    "value": "https://s3.amazonaws.com/cdn.picpay.com/conta-core/conta_liquidacao_encerramento.html"
+  },
+  "release_new_wallet_balance_bool": {
+    "value": "true"
+  },
+  "sac_phone": {
+    "value": "tel:4020-6660"
+  },
+  "search_zipcode_address_offer": {
+    "value": "https://www2.correios.com.br/sistemas/buscacep/buscaCepEndereco.cfm"
+  },
+  "security_block_screen_configuration": {
+    "value": "{\"title\":\"Esse aparelho não pode acessar o PicPay Empresas\",\"subtitle\":\"O celular que está usando não atende alguns critérios de segurança do PicPay Empresas. Para entrar na sua conta, você pode usar outro aparelho ou acessar o Painel Lojista.\",\"actionPrimaryTitle\":\"Acessar Painel Lojista\",\"actionPrimaryLink\":\"picpaybiz://picpaybiz/securityblock?action=BROWSER&value=https://painel-empresas.picpay.com/\",\"actionSecondaryTitle\":\"Fechar aplicativo\",\"actionSecondaryLink\":\"\",\"actionNeutralTitle\":\"Como posso acessar?\",\"actionNeutralLink\":\"picpaybiz://picpaybiz/securityblock?action=BROWSER&value=https://ajudaempresas.picpay.com/hc/pt-br/articles/4408505613325/\"}"
+  },
+  "seller_data_amount_users": {
+    "value": "61 milhões"
+  },
+  "seller_features_carousel_value": {
+    "value": "1"
+  },
+  "sentinel_trackers_pj": {
+    "value": "{\"version\":\"v0\",\"newrelic_exception\":true,\"newrelic_trace\":true,\"newrelic_event\":true,\"newrelic_meter\":true,\"sunlight_exception\":false,\"sunlight_trace\":false,\"sunlight_event\":false,\"sunlight_meter\":false,\"instabug_exception\":false,\"instabug_trace\":false,\"instabug_event\":false,\"instabug_meter\":false}"
+  },
+  "should_not_map_using_swifty_json": {
+    "value": "true"
+  },
+  "should_pix_transactions_have_fee_applied": {
+    "value": "true"
+  },
+  "should_show_pix_fee_in_account_statement": {
+    "value": "false"
+  },
+  "teste_pretinho": {
+    "value": "false"
+  },
+  "transactions_tab_value": {
+    "value": "1"
+  },
+  "unblock_physical_card_offer": {
+    "value": "true"
+  },
+  "update_app_screen_configuration": {
+    "value": "{\"title\":\"Chegou a hora de atualizar seu PicPay!\",\"subtitle\":\"Você precisa usar a versão mais recente do nosso aplicativo, pois além de mais bonito e estiloso o PicPay possui novas funções incríveis. Atualize e descubra.\",\"actionPrimaryTitle\":\"Atualizar\",\"actionPrimaryLink\":\"picpaybiz://picpaybiz/updateapp?action=STORE\",\"actionSecondaryTitle\":\"\",\"actionSecondaryLink\":\"\",\"actionNeutralTitle\":\"Fechar\",\"actionNeutralLink\":\"\"}"
+  },
+  "update_app_unsupported_configuration": {
+    "value": "{\"title\":\"Acesso indisponível pra versão deste celular\",\"subtitle\":\"Para receber atualizações e acessar o aplicativo, seu celular precisa ter a versão 5.0 do Android ou superior. Você também pode acessar sua conta pelo Painel de Vendas.\",\"actionPrimaryTitle\":\"Acessar Painel de Vendas\",\"actionPrimaryLink\":\"picpaybiz://picpaybiz/updateapp?action=BROWSER&value=https://painel-empresas.picpay.com/\",\"actionSecondaryTitle\":\"\",\"actionSecondaryLink\":\"\",\"actionNeutralTitle\":\"Como posso acessar?\",\"actionNeutralLink\":\"picpaybiz://picpaybiz/updateapp?action=BROWSER&value=https://ajudaempresas.picpay.com/hc/pt-br/articles/4416294225939\"}"
+  },
+  "url_bills_contact_general_doubts": {
+    "value": "https://ajudaempresas.picpay.com/hc/pt-br/sections/360008988811-D%C3%BAvidas-Gerais"
+  },
+  "url_contact_help_center": {
+    "value": "picpaybiz://picpaybiz/helpcenter/"
+  },
+  "whatsapp_number_deep_link": {
+    "value": "https://wa.me/5511948759903"
+  }
+}
