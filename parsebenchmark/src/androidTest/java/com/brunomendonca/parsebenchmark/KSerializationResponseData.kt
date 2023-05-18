@@ -4,17 +4,17 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class FlagResponseWrapper(
+data class KSerializationResponse(
     @SerialName("value")
     val value: String,
     @SerialName("experiment")
-    val experiment: ExperimentResponseWrapper? = null,
+    val experiment: KSerializationExperimentResponse? = null,
     @SerialName("track")
     val trackSources: List<String>? = null
 )
 
 @Serializable
-data class ExperimentResponseWrapper(
+data class KSerializationExperimentResponse(
     @SerialName("name")
     val name: String,
     @SerialName("variant")
