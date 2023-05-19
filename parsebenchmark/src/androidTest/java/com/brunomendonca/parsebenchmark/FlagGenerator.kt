@@ -19,10 +19,18 @@ object FlagGenerator {
         return flags
     }
 
-    fun getFlagsGson(size: Int): Map<String, GsonResponse> {
-        val flags = mutableMapOf<String, GsonResponse>()
+    fun getFlagsGson(size: Int): Map<String, Response> {
+        val flags = mutableMapOf<String, Response>()
         for(i in 0..size) {
-            flags.putIfAbsent(getRandomName(), GsonResponse(value = getRandomValue()))
+            flags.putIfAbsent(getRandomName(), Response(value = getRandomValue()))
+        }
+        return flags
+    }
+
+    fun getFlagsMoshi(size: Int): Map<String, MoshiResponse> {
+        val flags = mutableMapOf<String, MoshiResponse>()
+        for(i in 0..size) {
+            flags.putIfAbsent(getRandomName(), MoshiResponse(value = getRandomValue()))
         }
         return flags
     }

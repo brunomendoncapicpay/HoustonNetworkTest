@@ -1,12 +1,12 @@
 package com.brunomendonca.parsebenchmark
 
-data class GsonResponse(
+data class Response(
     val value: String,
-    val experiment: KSerializationExperimentResponse? = null,
+    val experiment: ExperimentResponse? = null,
     val trackSources: List<String>? = null
 )
 
-data class GsonExperimentResponse(
+data class ExperimentResponse(
     val name: String,
     val variant: String
 )
