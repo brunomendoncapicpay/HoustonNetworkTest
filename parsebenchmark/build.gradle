@@ -49,6 +49,7 @@ dependencies {
     kapt("com.squareup.moshi:moshi-kotlin-codegen:1.14.0")
     kaptTest "com.squareup.moshi:moshi-kotlin-codegen:1.14.0"
 //    ksp("com.squareup.moshi:moshi-kotlin-codegen:1.14.0")
+    implementation 'com.fasterxml.jackson.module:jackson-module-kotlin:2.12.1'
 
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'

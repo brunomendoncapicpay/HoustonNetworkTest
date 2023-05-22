@@ -3,7 +3,9 @@ package com.brunomendonca.parsebenchmark
 import androidx.benchmark.junit4.BenchmarkRule
 import androidx.benchmark.junit4.measureRepeated
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
 import java.lang.reflect.Type
@@ -20,7 +22,7 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 
-private const val BENCHMARK_WEIGHT = 1000
+private const val BENCHMARK_WEIGHT = 500
 
 /**
  * Benchmark, which will execute on an Android device.
@@ -48,9 +50,10 @@ class ParseBenchmark {
         val jsonBody = FlagGenerator.getJson(BENCHMARK_WEIGHT)
         benchmarkRule.measureRepeated {
             runTest(testDispatcher) {
-                Json.decodeFromString<Map<String, KSerializationResponse>>(
+                val result: Map<String, KSerializationResponse> = Json.decodeFromString<Map<String, KSerializationResponse>>(
                     jsonBody
                 )
+                //runWithTimingDisabled { println("RESULT $result") }
             }
         }
     }
@@ -60,7 +63,8 @@ class ParseBenchmark {
         val flags = FlagGenerator.getFlagsKSerialization(BENCHMARK_WEIGHT)
         benchmarkRule.measureRepeated {
             runTest(testDispatcher) {
-                Json.encodeToJsonElement(flags)
+                val result: String = Json.encodeToJsonElement(flags).toString()
+                //runWithTimingDisabled { println("RESULT $result") }
             }
         }
     }
@@ -68,12 +72,14 @@ class ParseBenchmark {
     @Test
     fun decodeWithGson() {
         val jsonBody = FlagGenerator.getJson(BENCHMARK_WEIGHT)
+        val type = object : TypeToken<Map<String, Response>>() {}.type
         val gson = Gson()
         benchmarkRule.measureRepeated {
             runTest(testDispatcher) {
-                gson.fromJson(
-                    jsonBody, Response::class.java
+                val result: Map<String, Response> = gson.fromJson(
+                    jsonBody, type
                 )
+                //runWithTimingDisabled { println("RESULT $result") }
             }
         }
     }
@@ -84,7 +90,8 @@ class ParseBenchmark {
         val gson = Gson()
         benchmarkRule.measureRepeated {
             runTest(testDispatcher) {
-                gson.toJson(flags)
+                val result: String = gson.toJson(flags)
+                //runWithTimingDisabled { println("RESULT $result") }
             }
         }
     }
@@ -102,7 +109,8 @@ class ParseBenchmark {
         val jsonAdapter = moshi.adapter<Map<String, MoshiResponse>>(type)
         benchmarkRule.measureRepeated {
             runTest(testDispatcher) {
-                jsonAdapter.fromJson(jsonBody)
+                val result: Map<String, MoshiResponse> = jsonAdapter.fromJson(jsonBody)!!
+                //runWithTimingDisabled { println("RESULT $result") }
             }
         }
     }
@@ -119,8 +127,41 @@ class ParseBenchmark {
         val jsonAdapter = moshi.adapter<Map<String, MoshiResponse>>(type)
         benchmarkRule.measureRepeated {
             runTest(testDispatcher) {
-                jsonAdapter.toJson(flags)
+                val result: String = jsonAdapter.toJson(flags)
+                //runWithTimingDisabled { println("RESULT $result") }
             }
         }
     }
+
+    @Test
+    fun decodeWithJackson() {
+        val jsonBody = FlagGenerator.getJson(BENCHMARK_WEIGHT)
+        val jackson = jacksonObjectMapper()
+        val type = jackson.typeFactory.constructMapType(
+            Map::class.java,
+            String::class.java,
+            Response::class.java
+        )
+        benchmarkRule.measureRepeated {
+            runTest(testDispatcher) {
+                val result: Map<String, Response> = jackson.readValue(
+                    jsonBody, type
+                )
+                //runWithTimingDisabled { println("RESULT $result") }
+            }
+        }
+    }
+
+    @Test
+    fun encodeWithJackson() {
+        val flags = FlagGenerator.getFlagsGson(BENCHMARK_WEIGHT)
+        val jackson = jacksonObjectMapper()
+        benchmarkRule.measureRepeated {
+            runTest(testDispatcher) {
+                val result: String = jackson.writeValueAsString(flags)
+                //runWithTimingDisabled { println("RESULT $result") }
+            }
+        }
+    }
+
 }
