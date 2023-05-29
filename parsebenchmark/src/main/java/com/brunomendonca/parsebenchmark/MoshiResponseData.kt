@@ -6,7 +6,7 @@ import com.squareup.moshi.JsonClass
 data class MoshiResponse(
     val value: String,
     val experiment: MoshiExperimentResponse? = null,
-    val trackSources: List<String>? = null
+    val track: List<String>? = null
 )
 
 @JsonClass(generateAdapter = true)

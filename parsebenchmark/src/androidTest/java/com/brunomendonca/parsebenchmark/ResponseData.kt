@@ -3,7 +3,7 @@ package com.brunomendonca.parsebenchmark
 data class Response(
     val value: String,
     val experiment: ExperimentResponse? = null,
-    val trackSources: List<String>? = null
+    val track: List<String>? = null
 )
 
 data class ExperimentResponse(

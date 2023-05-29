@@ -22,7 +22,7 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 
-private const val BENCHMARK_WEIGHT = 500
+private const val BENCHMARK_WEIGHT = 4000
 
 /**
  * Benchmark, which will execute on an Android device.
@@ -159,9 +159,8 @@ class ParseBenchmark {
         benchmarkRule.measureRepeated {
             runTest(testDispatcher) {
                 val result: String = jackson.writeValueAsString(flags)
-                //runWithTimingDisabled { println("RESULT $result") }
+                runWithTimingDisabled { println("RESULT $result") }
             }
         }
     }
-
 }

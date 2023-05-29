@@ -10,7 +10,7 @@ data class KSerializationResponse(
     @SerialName("experiment")
     val experiment: KSerializationExperimentResponse? = null,
     @SerialName("track")
-    val trackSources: List<String>? = null
+    val track: List<String>? = null
 )
 
 @Serializable

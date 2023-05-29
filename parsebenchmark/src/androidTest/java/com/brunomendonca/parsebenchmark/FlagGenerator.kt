@@ -23,7 +23,7 @@ object FlagGenerator {
                     getRandomName(),
                     KSerializationResponse(
                         value = getRandomValue(),
-                        trackSources = listOf("datalake", "mixpanel")
+                        track = listOf("datalake", "mixpanel")
                     )
                 )
                 else -> flags.putIfAbsent(
@@ -31,7 +31,7 @@ object FlagGenerator {
                     KSerializationResponse(
                         value = getRandomValue(),
                         experiment = KSerializationExperimentResponse(getRandomName(), "control"),
-                        trackSources = listOf("datalake", "mixpanel")
+                        track = listOf("datalake", "mixpanel")
                     )
                 )
             }
@@ -51,7 +51,7 @@ object FlagGenerator {
                     getRandomName(),
                     Response(
                         value = getRandomValue(),
-                        trackSources = listOf("datalake", "mixpanel")
+                        track = listOf("datalake", "mixpanel")
                     )
                 )
                 else -> flags.putIfAbsent(
@@ -59,7 +59,7 @@ object FlagGenerator {
                     Response(
                         value = getRandomValue(),
                         experiment = ExperimentResponse(getRandomName(), "control"),
-                        trackSources = listOf("datalake", "mixpanel")
+                        track = listOf("datalake", "mixpanel")
                     )
                 )
             }
@@ -79,7 +79,7 @@ object FlagGenerator {
                     getRandomName(),
                     MoshiResponse(
                         value = getRandomValue(),
-                        trackSources = listOf("datalake", "mixpanel")
+                        track = listOf("datalake", "mixpanel")
                     )
                 )
                 else -> flags.putIfAbsent(
@@ -87,7 +87,7 @@ object FlagGenerator {
                     MoshiResponse(
                         value = getRandomValue(),
                         experiment = MoshiExperimentResponse(getRandomName(), "control"),
-                        trackSources = listOf("datalake", "mixpanel")
+                        track = listOf("datalake", "mixpanel")
                     )
                 )
             }
