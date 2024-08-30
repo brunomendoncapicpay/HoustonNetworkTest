@@ -17,12 +17,13 @@ import kotlinx.coroutines.test.runTest
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.encodeToJsonElement
+import org.json.JSONObject
 import org.junit.After
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 
-private const val BENCHMARK_WEIGHT = 4000
+private const val BENCHMARK_WEIGHT = 8000
 
 /**
  * Benchmark, which will execute on an Android device.
@@ -50,9 +51,10 @@ class ParseBenchmark {
         val jsonBody = FlagGenerator.getJson(BENCHMARK_WEIGHT)
         benchmarkRule.measureRepeated {
             runTest(testDispatcher) {
-                val result: Map<String, KSerializationResponse> = Json.decodeFromString<Map<String, KSerializationResponse>>(
-                    jsonBody
-                )
+                val result: Map<String, KSerializationResponse> =
+                    Json.decodeFromString<Map<String, KSerializationResponse>>(
+                        jsonBody
+                    )
                 //runWithTimingDisabled { println("RESULT $result") }
             }
         }
@@ -163,4 +165,16 @@ class ParseBenchmark {
             }
         }
     }
+
+    @Test
+    fun decodeWithBrunosDecoder() {
+        val jsonBody = FlagGenerator.getJson(BENCHMARK_WEIGHT)
+        benchmarkRule.measureRepeated {
+            runTest(testDispatcher) {
+                val result = JSONObject(jsonBody)
+//                runWithTimingDisabled { println("RESULT ${result}") }
+            }
+        }
+    }
+
 }
