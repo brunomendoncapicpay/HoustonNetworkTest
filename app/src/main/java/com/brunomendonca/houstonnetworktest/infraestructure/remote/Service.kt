@@ -4,9 +4,8 @@ import okhttp3.ResponseBody
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Header
-import retrofit2.http.Path
 
-interface HoustonService {
+interface Service {
     @Suppress("LongParameterList")
     //@GET("flags/api/v2/app/{appId}")
     //@GET("flags")
@@ -21,4 +20,8 @@ interface HoustonService {
         @Header("os_version") osVersion: String?,
         @Header("app_version") appVersion: String?
     ): Response<ResponseBody>
+
+
+    @GET("flags")
+    suspend fun test(): Response<List<TestResponseWrapper>>
 }

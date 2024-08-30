@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.brunomendonca.houstonnetworktest"
-        minSdk 21
+        minSdk 25
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -38,6 +38,8 @@ android {
 
 dependencies {
 
+    implementation 'com.google.net.cronet:cronet-okhttp:0.1.0'
+    implementation "com.google.android.gms:play-services-cronet:18.1.0"
     implementation 'androidx.core:core-ktx:1.10.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
